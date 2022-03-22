@@ -1,0 +1,47 @@
+{
+    "entity": "event",
+    "account_id": "acc_J6UJNDtyE8kuIs",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_J7EoKtRI2B4KVs",
+                "entity": "payment",
+                "amount": 2055500,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_J7EoBOlhqM5m4f",
+                "invoice_id": null,
+                "international": false,
+                "method": "upi",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Test Transaction",
+                "card_id": null,
+                "bank": null,
+                "wallet": null,
+                "vpa": "gg@paytm",
+                "email": "dd@gg.vv",
+                "contact": "+1111111111",
+                "notes": [],
+                "fee": 48510,
+                "tax": 7400,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "rrn": "553268513064",
+                    "upi_transaction_id": "3DFD7D97F7265492FBFFD4E99279FF98"
+                },
+                "created_at": 1647319587
+            }
+        }
+    },
+    "created_at": 1647319587
+}

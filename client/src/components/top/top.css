@@ -1,0 +1,9 @@
+.mainTitle {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 100px;
+  font-weight: 1000;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 15px 1px 15px rgb(0, 0, 0);
+}

@@ -1,0 +1,102 @@
+.singleCourse {
+  flex: 9;
+}
+
+.singleCourseWrapper {
+  width: 100%;
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singleCourseImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singleCourseTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singleCourseTitleInput {
+  width: 100%;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.singleCourseTitleInput:focus {
+  outline: none;
+}
+
+.singleCourseEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singleCourseIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singleCourseIcon:first-child {
+  color: teal;
+}
+
+.singleCourseIcon:last-child {
+  color: tomato;
+}
+
+.singleCourseInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+.singleCourseDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singleCourseDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singleCourseDescInput {
+  width: 100%;
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singleCourseDescInput:focus {
+  outline: none;
+}
+.singleCourseButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}

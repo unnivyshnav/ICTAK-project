@@ -1,0 +1,31 @@
+.main {
+  background: url("../../images/BACK.jpg") center center/cover no-repeat;
+  /* background-size: cover; */
+  height: 100vh;
+}
+
+.head {
+  margin-top: 100px;
+}
+.header {
+  color: #fff;
+  font-size: 70px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.front-top {
+  width: 60%;
+  position: relative;
+  left: 0%;
+  top: 23%;
+}
+
+.desc {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}

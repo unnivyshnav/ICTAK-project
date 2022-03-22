@@ -1,0 +1,14 @@
+.courses {
+  color: rgb(151, 206, 255);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  margin-top: 10px;
+  flex: 12;
+  justify-content: center;
+}
+h2 {
+  color: aliceblue;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

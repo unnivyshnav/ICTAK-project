@@ -1,0 +1,53 @@
+.searchmain {
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.search {
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+}
+
+table {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin: 50px 0px;
+  border-spacing: 15px;
+  color: rgb(0, 0, 0);
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+th {
+  width: 250px;
+  text-align: left;
+  font-size: 20px;
+}
+
+td {
+  width: 250px;
+  font-size: 20px;
+}

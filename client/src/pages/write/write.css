@@ -1,0 +1,122 @@
+.write {
+  padding-top: 50px;
+  margin-top: 100px;
+  background: #00e08a;
+  height: 100vh;
+  padding-left: 5%;
+}
+
+.writeImg {
+  margin-left: 150px;
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroupTop {
+  margin-left: 50px;
+  display: flex;
+}
+.writeFormGroupDown {
+  margin-left: 80px;
+}
+.writeIcon {
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+  border-radius: 10px;
+  height: 10px;
+}
+
+.writeInput::placeholder {
+  color: rgb(189, 185, 185);
+  font-size: 14px;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 70vw;
+  height: 50vh;
+  font-family: inherit;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-left: 6%;
+}
+.writeFee {
+  width: 70vw;
+
+  font-family: inherit;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-left: 6%;
+}
+
+.writeSubmit {
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.warning {
+  width: 100%;
+  margin-top: 10%;
+
+  display: flex;
+}
+
+.warning > h1 {
+  text-align: center;
+  flex: 12;
+  margin-top: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(70, 70, 70);
+}
+
+@media screen and (max-width: 968px) {
+  .writeForm {
+    width: 100%;
+  }
+  .writeFormGroupTop {
+    width: 40%;
+    flex-direction: column;
+  }
+  .writeFormGroupDown {
+    width: 90%;
+    margin-left: 6%;
+  }
+  .writeIcon {
+    width: 40%;
+
+    margin-bottom: 10px;
+  }
+  .writeSubmit {
+    width: 40%;
+    margin-top: 10px;
+  }
+}

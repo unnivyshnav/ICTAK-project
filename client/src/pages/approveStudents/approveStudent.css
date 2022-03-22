@@ -1,0 +1,88 @@
+.aprove_table_container {
+  background-color: #00e08a;
+  padding-top: 40px;
+  padding-bottom: 800px;
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 90px;
+  font-weight: 600;
+}
+
+.table {
+  width: 95%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #064723;
+}
+
+.table tbody {
+  background-color: #0aaf70;
+}
+
+.table thead tr th {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+  color: white;
+  opacity: 1;
+  padding: 12px;
+  vertical-align: top;
+  border: 1px solid white;
+}
+
+.table tbody tr td {
+  font-size: 16px;
+  letter-spacing: 0.35px;
+  font-weight: normal;
+
+  background-color: #00e08a;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid wheat;
+}
+
+.btns {
+  width: 90px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .table thead {
+    display: none;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+  .table tbody tr td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+  }
+} */

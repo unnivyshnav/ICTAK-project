@@ -1,0 +1,68 @@
+.employeeProfile {
+  margin-top: 110px;
+  padding-top: 40px;
+  color: #000000;
+  background: #f3e8e8;
+  position: relative;
+  height: 910px;
+  /* width: 100%; */
+}
+.allWrap {
+  background: #f3e8e8;
+}
+.account-settings .user-profile {
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+  margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+  width: 200px;
+  margin-top: 40px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+.account-settings .user-profile h5.user-name {
+  margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #0059ff;
+}
+
+.form-control {
+  border: 1px solid #cfd1d8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  background: #ffffff;
+  color: #000000;
+}
+
+.card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.user-name {
+  font-size: 30px;
+  font-weight: 800;
+}
+.user-email {
+  font-size: 25px;
+}
+
+label {
+  font-size: 1.2rem;
+}

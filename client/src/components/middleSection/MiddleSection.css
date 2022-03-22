@@ -1,0 +1,44 @@
+.middle {
+  background-color: rgb(0, 0, 0);
+  font-family: "Titillium Web", sans-serif;
+}
+.container-sect {
+  padding: 100px;
+  background: linear-gradient(
+    60deg,
+    rgb(255, 255, 255) 0%,
+    rgb(100, 165, 15) 100%
+  );
+  transform: skewY(-3deg);
+  display: flex;
+}
+.story-sect {
+  width: 400px;
+  transform: skewY(3deg);
+}
+.story-sect p {
+  color: black;
+}
+.story-sect h1 {
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+}
+.caption {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  opacity: 0.5;
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .caption {
+    display: none;
+  }
+}
+
+.story-sect {
+  color: white;
+}

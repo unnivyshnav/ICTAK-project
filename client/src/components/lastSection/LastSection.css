@@ -1,0 +1,68 @@
+.serv-container {
+  /* background-color: rgb(107, 185, 139); */
+  background: url("../../images/serv_bg.jpg");
+  padding: 10%;
+  color: rgb(189, 206, 197);
+}
+.serv-container h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.serv-container h2 {
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+}
+.inst-div {
+  width: 50%;
+  text-align: justify;
+  border-bottom: 2px solid black;
+  border: 7px solid rgb(255, 255, 255);
+  padding: 1%;
+  border-bottom: none;
+  background-color: rgb(35, 51, 37);
+}
+
+.offer-div {
+  position: absolute;
+  margin-left: 48%;
+  font-size: 110px;
+  opacity: 0.8;
+  margin-bottom: 10%;
+}
+.grad-div {
+  display: block;
+  width: 50%;
+  text-align: justify;
+  border-bottom: 2px solid black;
+  margin-left: 52%;
+  border: 7px solid rgb(255, 255, 255);
+  padding: 1%;
+  background-color: rgb(89, 109, 92);
+  border-left: none;
+}
+.corp-div {
+  display: block;
+  width: 50%;
+  text-align: justify;
+  border: 7px solid black;
+  padding: 1%;
+  border-top: none;
+  background-color: rgb(35, 51, 37);
+}
+.part-div {
+  display: block;
+  width: 50%;
+  text-align: justify;
+
+  margin-left: 52%;
+  border: 7px solid black;
+  padding: 1%;
+  background-color: rgb(89, 109, 92);
+  border-top: none;
+}
+
+@media screen and (max-width: 968px) {
+  .offer-div {
+    font-size: 2.6rem;
+  }
+}
